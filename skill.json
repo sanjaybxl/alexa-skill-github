@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Ask github for pull request details and many more.",
+          "examplePhrases": [
+            "Alexa open github siri",
+            "Alexa tell github siri",
+            "Alexa ask github siri"
+          ],
+          "name": "sgithub",
+          "description": "Ask github for details about pull request, merge pull request and many more."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "SOCIAL_NETWORKING",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

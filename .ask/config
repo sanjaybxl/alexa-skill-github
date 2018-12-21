@@ -1,0 +1,43 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.333ebe7a-907d-46bc-922c-757277bf3e2e",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:874143671156:function:ask-custom-mysgithub-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "483615de322bb85b26afc917f7f0a3c4"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "c860b3f29c76b5e2bcb7fc0a14086271"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:874143671156:function:ask-custom-mysgithub-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-mysgithub-default",
+            "handler": "index.handler",
+            "revisionId": "4cbc6d58-449f-475d-ac5c-aeaee2d6b6dd",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}

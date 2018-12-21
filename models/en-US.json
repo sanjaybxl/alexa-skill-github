@@ -1,0 +1,90 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "github siri",
+          "intents": [
+              {
+                  "name": "AboutIntent",
+                  "slots": [],
+                  "samples": [
+                      "about",
+                      "tell me about this skill"
+                  ]
+              },
+              {
+                  "name": "AMAZON.YesIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "PullRequestIntent",
+                  "slots": [
+                      {
+                          "name": "repository",
+                          "type": "AMAZON.SearchQuery"
+                      }
+                  ],
+                  "samples": [
+                      "{repository} pull request count",
+                      "give me pull request count for {repository}",
+                      "give me pull request {repository}",
+                      "pull request count of {repository}",
+                      "{repository} repo pull request count",
+                      "pull request count of {repository} repo",
+                      "tell me the count of pull request for {repository} repo"
+                  ]
+              }
+          ],
+          "types": [
+              {
+                  "name": "REPOSITORIES",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "ottertune"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "angular-ui-ui-grid"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "build-helper-maven-plugin"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "ci-droid"
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}
